@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+section {
+    background-color: black;
+    padding: 10%;
+    margin: 10vh 0;
+}
+
+div {
+    height: 80vh;
+    width: 80vw;
+    background-color: lightblue;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 0 10%;
+}
+
+.using-table {
+    display: table;
+}
+
+.using-table p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.using-absolute {
+    position: relative;
+}
+
+.using-absolute p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 12px;
+    transform: translate(-50%, -50%);
+}
+
+.using-flexbox {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.using-grid {
+    display: grid;
+    place-items: center;
+}
+
+.using-margins {
+    display: flex;
+}
+
+.using-margins p {
+    font-size: 14px;
+    margin: auto;
+}
